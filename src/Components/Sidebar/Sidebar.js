@@ -5,14 +5,14 @@ const sidebar = () => {
     <div className="">
       <button
         type="button"
-        className="text-gray-500 hover:text-gray-600 lg:hidden"
+        className="text-white"
         data-hs-overlay="#docs-overlay"
         aria-controls="docs-overlay"
         aria-label="Toggle navigation"
       >
         <span className="sr-only">Toggle Navigation</span>
         <svg
-          className="w-5 h-5"
+          className="w-8 h-8"
           width="16"
           height="16"
           fill="currentColor"
@@ -27,13 +27,13 @@ const sidebar = () => {
 
       <div
         id="docs-overlay"
-        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 left-0 bottom-0 z-[60] w-64 bg-white pt-7 pb-10 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:right-auto lg:bottom-0 dark:scrollbar-y shadow-2xl m-5 rounded-2xl "
+        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 left-0 bottom-0 z-[60] w-64 bg-white pt-7 pb-10 overflow-y-auto scrollbar-y shadow-2xl m-5 rounded-2xl "
       >
         <div className="px-6">
           <a
             className="flex-none text-xl font-semibold"
             href="/#"
-            aria-label="Brand"
+            aria-label="LAUNDRY"
           >
             LAUNDRY
           </a>
