@@ -10,7 +10,7 @@ import classicShoe from "../../icons/classic-shoe.png";
 
 const DeliveryDetails = () => {
   return (
-    <div className="bg-white ml-10 -mt-14 py-10 rounded-xl shadow-2xl">
+    <div className="bg-white py-10 rounded-xl shadow-2xl">
       <div className="flex justify-between gap-10 px-10">
         <h1 className="text-3xl">Today's Delivery</h1>
         <div className="flex gap-2">
