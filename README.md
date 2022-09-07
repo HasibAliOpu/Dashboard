@@ -1,6 +1,6 @@
 # Dashboard
 
-[Dashboard]()
+[Dashboard](https://dashboard-678.netlify.app/)
 
 ## Using Technologies
 
