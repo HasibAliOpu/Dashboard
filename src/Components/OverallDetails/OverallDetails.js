@@ -5,13 +5,6 @@ import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
-  datasets: [
-    {
-      label: "# of Votes",
-      data: [5, 15, 10, 25, 45],
-      backgroundColor: ["#F4365C", "#8292AB", "#FAAD41", "#2DCE8A", "#0083FF"],
-    },
-  ],
   labels: [
     "Returned",
     "pending",
@@ -19,12 +12,21 @@ export const data = {
     "Ready To Deliver",
     "Delivered",
   ],
+  datasets: [
+    {
+      label: "# of Votes",
+      data: [5, 15, 10, 25, 45],
+      backgroundColor: ["#F4365C", "#8292AB", "#FAAD41", "#2DCE8A", "#0083FF"],
+    },
+  ],
 };
 
 const OverallDetails = () => {
   return (
-    <div className="px-10 py-5 bg-white rounded-2xl shadow-xl">
-      <h1 className="text-center font-semibold text-2xl pb-2">Overall</h1>
+    <div className="px-5 lg:px-10 py-5 bg-white rounded-2xl shadow-xl">
+      <h1 className="text-center font-semibold text-lg lg:text-2xl pb-2">
+        Overall
+      </h1>
       <Doughnut data={data} />
     </div>
   );

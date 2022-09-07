@@ -11,11 +11,16 @@ import classicShoe from "../../icons/classic-shoe.png";
 const DeliveryDetails = () => {
   return (
     <div className="bg-white py-10 rounded-xl shadow-2xl">
-      <div className="flex justify-between gap-10 px-10">
-        <h1 className="text-3xl">Today's Delivery</h1>
-        <div className="flex gap-2">
-          <div>
-            <label for="hs-leading-button-add-on-with-icon" className="sr-only">
+      <div className="lg:flex justify-between gap-10 px-4 lg:px-10">
+        <h1 className="text-center text-lg lg:text-xl xl:text-3xl font-semibold">
+          Today's Delivery
+        </h1>
+        <div className="lg:flex gap-2">
+          <div className="my-4 lg:my-0">
+            <label
+              htmlFor="hs-leading-button-add-on-with-icon"
+              className="sr-only"
+            >
               Label
             </label>
             <div className="flex rounded-md shadow-sm">
@@ -39,7 +44,7 @@ const DeliveryDetails = () => {
                 id="hs-leading-button-add-on-with-icon"
                 placeholder="Search Here"
                 name="hs-leading-button-add-on-with-icon"
-                className="py-3 px-4 pr-24 border border-gray-200 shadow rounded-r-md text-sm focus:z-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600"
+                className="py-3 lg:px-4 w-full lg:pr-24 border border-gray-200 shadow rounded-r-md text-sm focus:z-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600"
               />
             </div>
           </div>
@@ -48,7 +53,7 @@ const DeliveryDetails = () => {
             <button
               id="hs-dropdown-with-icons"
               type="button"
-              className="hs-dropdown-toggle py-3 px-6 inline-flex justify-center items-center gap-6 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
+              className="hs-dropdown-toggle xl:py-3 px-6  inline-flex justify-center items-center gap-6 rounded-md border  bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm font-semibold"
             >
               All Orders
               <svg
@@ -62,8 +67,8 @@ const DeliveryDetails = () => {
                 <path
                   d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
                 />
               </svg>
             </button>
@@ -72,55 +77,76 @@ const DeliveryDetails = () => {
               className="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden mt-2 min-w-[15rem] bg-white shadow-md rounded-lg p-2  divide-y divide-gray-200"
               aria-labelledby="hs-dropdown-with-icons"
             >
-              <div className="py-2 first:pt-0 last:pb-0">
+              <div className="py-2 first:pt-0 last:pb-0 font-semibold">
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Shirt
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    2
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Cap
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    3
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Shoe
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    2
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Coat
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    1
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Classic Shoe
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    1
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Pant
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    1
+                  </span>
                 </a>
                 <a
                   className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                   href="/"
                 >
                   Jeans
+                  <span className="py-1.5 px-3 rounded-full text-xs  bg-blue-100 text-blue-800">
+                    2
+                  </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-3 p-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 p-5 lg:p-10">
         <div className=" bg-white border-l-4 border-yellow-300 shadow-md rounded-xl p-4 hover:scale-110 duration-300 ease-in-out">
           <div className="flex justify-between pb-3 px-2 font-semibold text-sm">
             <h2>Dhanush</h2>

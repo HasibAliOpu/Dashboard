@@ -13,7 +13,7 @@ const OrderDetails = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 mx-10 ml64 py-10 gap-3">
         <div className="flex justify-between bg-white border shadow-sm rounded-xl p-8">
           <div>
-            <h1 className="uppercase text-slate-600 font-semibold font-mono text-lg">
+            <h1 className="uppercase text-slate-600 font-semibold font-mono  text-sm lg:text-lg">
               pending order
             </h1>
             <p className="font-bold text-xl text-gray-600">202</p>
@@ -25,7 +25,7 @@ const OrderDetails = () => {
         </div>
         <div className="flex justify-between bg-white border shadow-sm rounded-xl p-8">
           <div>
-            <h1 className="uppercase text-slate-600 font-semibold font-mono text-lg">
+            <h1 className="uppercase text-slate-600 font-semibold font-mono text-sm lg:text-lg">
               processing order
             </h1>
             <p className="font-bold text-xl text-gray-600">99</p>
@@ -37,7 +37,7 @@ const OrderDetails = () => {
         </div>
         <div className="flex justify-between bg-white border shadow-sm rounded-xl p-8">
           <div>
-            <h1 className="uppercase text-slate-600 font-semibold font-mono text-lg ">
+            <h1 className="uppercase text-slate-600 font-semibold font-mono  text-sm lg:text-lg ">
               ready to deliver
             </h1>
             <p className="font-bold text-xl text-gray-600">263</p>
@@ -49,7 +49,7 @@ const OrderDetails = () => {
         </div>
         <div className="flex justify-between bg-white border shadow-sm rounded-xl p-8">
           <div>
-            <h1 className="uppercase text-slate-600 font-semibold font-mono text-lg">
+            <h1 className="uppercase text-slate-600 font-semibold font-mono  text-sm lg:text-lg">
               delivered orders
             </h1>
             <p className="font-bold text-xl text-gray-600">345</p>
