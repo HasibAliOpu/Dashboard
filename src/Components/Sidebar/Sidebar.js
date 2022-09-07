@@ -2,7 +2,7 @@ import React from "react";
 
 const sidebar = () => {
   return (
-    <div className="">
+    <div className="bg-[#0484FB]">
       <button
         type="button"
         className="text-white"
